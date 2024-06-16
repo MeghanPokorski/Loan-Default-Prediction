@@ -6,7 +6,7 @@ The lender can also use the default prediction model to decide whether or not a 
 
 ## Purpose
 
-The purpose of this project was to create binary classification model to predict loan defaults.
+The purpose of this project was to create a binary classification model to predict loan defaults.
 
 ## Methods Used
 
