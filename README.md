@@ -42,7 +42,7 @@ Test ROC AUC: 0.5104258768051871
 Test F1: 0.12830188679245283
 <br>
 <br>
-The SVM model predicted 952 of the 1066 negatives in the test dataset, however it only got 17 of 134 negatives.
+The SVM model predicted 952 of the 1066 negatives in the test dataset, however it only got 17 of 134 positives.
 
 
 ## Inaccuarcy caused by SMOTE
