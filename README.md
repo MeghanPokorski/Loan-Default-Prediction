@@ -8,9 +8,19 @@ The lender can also use the default prediction model to decide whether or not a 
 
 The purpose of this project was to create binary classification model to predict loan defaults.
 
+## Methods Used
+
+- Exploratory Data Analysis
+- Predictive Modeling
+
 ## Tools
 
-The project is written in python and uses the Pandas, NumPy, Matplotlib, Scikit-learn, and Seaborn libraries.
+- python
+    - Pandas
+    - NumPy
+    - Matplotlib
+    - Scikit-learn
+    - Seaborn 
 
 ## Data
 
