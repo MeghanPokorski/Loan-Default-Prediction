@@ -15,11 +15,11 @@ The purpose of this project was to create a binary classification model to predi
 
 ## Tools
 
-- python
-    - Pandas
+- Python
+    - pandas
     - NumPy
     - Matplotlib
-    - Scikit-learn
+    - scikit-learn
     - Seaborn 
 
 ## Data
@@ -45,9 +45,9 @@ Test F1: 0.12830188679245283
 The SVM model predicted 952 of the 1066 negatives in the test dataset, however it only got 17 of 134 positives.
 
 
-## Inaccuarcy caused by SMOTE
+## Inaccuracy caused by SMOTE
 
-SMOTE, or Synthetic Minority Over-sampling, is widely recommended for unbalanced datasets where the one class makes up a disproportinatly large percentage of the training data. SMOTE creates synthetic values for the minority class so the training set is a 50/50 split. The idea is that it will create more information with which the model can be trained. This is the case for older, "weaker" models, like SVM where the calibration of the training data isn't a factor in the estimate. However, for more modern "strong' models like XGBoost and Random Forest the calibration of the training set is important to accurately predicting the results. This impact can be seen in the results of these models where they predicted disproportinatly in favor of default.
+SMOTE, or Synthetic Minority Over-sampling, is widely recommended for unbalanced datasets where the one class makes up a disproportionately large percentage of the training data. SMOTE creates synthetic values for the minority class so the training set is a 50/50 split. The idea is that it will create more information with which the model can be trained. This is the case for older, "weaker" models, like SVM where the calibration of the training data isn't a factor in the estimate. However, for more modern "strong' models like XGBoost and Random Forest the calibration of the training set is important to accurately predicting the results. This impact can be seen in the results of these models where they predicted disproportionately in favor of default.
 
 ## Conclusions and Recommendations
 
